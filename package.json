@@ -1,0 +1,25 @@
+{
+  "name": "upload-ai-backend",
+  "version": "1.0.0",
+  "repository": "https://github.com/bruno-oli/upload-ai-backend.git",
+  "author": "bruno-oli <brunomaz177@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "tsx watch ./src/server.ts"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/node": "^20.6.0",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^39.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "tsx": "^3.12.10",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "fastify": "^4.23.2"
+  }
+}

@@ -16,10 +16,13 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
     "eslint-plugin-promise": "^6.0.0",
+    "prisma": "^5.3.1",
     "tsx": "^3.12.10",
     "typescript": "*"
   },
   "dependencies": {
+    "@fastify/multipart": "^7.7.3",
+    "@prisma/client": "^5.3.1",
     "fastify": "^4.23.2"
   }
 }
